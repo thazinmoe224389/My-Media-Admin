@@ -14,6 +14,11 @@ alert("hello world");
 @section('myContent')
 
 <h1 style="color:red">This is home page</h1>
+
+{{-- <a href="{{url('postTest')}}">Post method test</a>
+<br> --}}
+
+
 {{ $name }}
 {!! $name !!}
 {{ $lecture}}
