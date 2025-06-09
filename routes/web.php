@@ -117,3 +117,7 @@ Route::get('laraGetData', function () {
 //  });
 
 Route::get('helloTest', [CustomerController::class,'outputHello']);
+
+
+Route::get('compact/list', [CustomerController::class,'compactList']);
+
